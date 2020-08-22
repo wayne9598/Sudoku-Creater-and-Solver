@@ -14,11 +14,10 @@ from create import create_sudoku
 # ]
 
 # Create Sudoku
-number_of_gaps = 40
+number_of_gaps = 20
 sudoku = create_sudoku(number_of_gaps)
 show_board(sudoku)
 
-print("======================")
 
 # Solve the board
 solve_board(sudoku)
